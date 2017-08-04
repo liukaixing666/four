@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  line-height: 4rem; }
+  header p {
+    flex: 1;
+    text-align: center; }
+  header .show {
+    border-bottom: 2px solid #617ef6;
+    color: #617ef6; }
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow: auto; }
+  section .lll {
+    width: 95%;
+    margin: 1rem auto; }
+    section .lll .top {
+      background: #fd6060;
+      display: flex;
+      height: 8rem;
+      position: relative; }
+      section .lll .top img {
+        width: 8%;
+        height: 30%;
+        margin-top: 1.5rem;
+        margin-left: 1rem; }
+      section .lll .top h1 {
+        font-size: 7rem;
+        line-height: 8rem;
+        color: #fff; }
+      section .lll .top h2 {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: normal; }
+      section .lll .top .ll {
+        position: absolute;
+        bottom: -.4rem;
+        width: 100%; }
+        section .lll .top .ll ul {
+          display: flex; }
+          section .lll .top .ll ul li {
+            flex: 1;
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border-radius: 50%;
+            text-align: center; }
+    section .lll .bottom {
+      height: 6rem;
+      border: 1px solid #ccc; }
+      section .lll .bottom ul {
+        margin-left: 2rem;
+        margin-top: 1rem; }
+        section .lll .bottom ul li {
+          padding-top: .5rem;
+          color: #aaaaaa; }
+        section .lll .bottom ul .green {
+          color: #3fbd8a; }
+
+/*# sourceMappingURL=style.css.map */
